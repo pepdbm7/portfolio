@@ -37,6 +37,10 @@ h3 {
   font-size: 2rem;
 }
 
+ul {
+  list-style-type: none;
+}
+
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
@@ -49,12 +53,36 @@ p.lead {
   font-size: 1.5rem;
 }
 
+i {
+  color: $white !important;
+  background-color: $primary;
+}
+
 .social-icons {
   a {
+    .fa-github {
+      background-color: $github;
+    }
+
+    .fa-twitter {
+      background-color: $twitter;
+    }
+
+    .fa-linkedin-in {
+      background-color: $linkedin;
+    }
+    .fa-facebook-f {
+      background-color: $facebook;
+    }
+    .fa-instagram {
+      background-color: $instagram;
+    }
+  }
+
+  i {
     display: inline-block;
     height: 3.5rem;
     width: 3.5rem;
-    background-color: $gray-700;
     color: $white !important;
     border-radius: 100%;
     text-align: center;
@@ -65,7 +93,8 @@ p.lead {
       margin-right: 0;
     }
     &:hover {
-      background-color: $primary;
+      transform: translateY(-5px);
+      background-color: $gray-600;
     }
   }
 }
@@ -74,7 +103,7 @@ p.lead {
   font-size: 3rem;
   .list-inline-item i {
     &:hover {
-      color: $primary;
+      color: $gray-600;
     }
   }
 }
