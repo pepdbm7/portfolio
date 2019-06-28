@@ -11,7 +11,6 @@
   position: absolute;
   z-index: -10;
   transition: transform 0.3s;
-  // width: 90%;
   height: auto;
 }
 
@@ -20,15 +19,18 @@
 }
 
 .separation-title-card {
-  margin-top: 1.25rem;
+  height: 5px;
+  background: $primary;
+  width: 100px;
+  margin: 1.25rem 0;
+  border-radius: 3px;
 }
 
-.separation-title-card:before {
-  content: "";
-  // position: absolute;
-  height: 5px;
-  background: rgba(3, 21, 123, 0.719);
-  width: 90px;
-  top: -0.75rem;
-  border-radius: 3px;
+.fa-code {
+  color: $primary !important;
+  background-color: $white;
+}
+
+.card-subtitle {
+  color: $gray-600;
 }
