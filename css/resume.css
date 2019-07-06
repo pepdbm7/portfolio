@@ -263,6 +263,10 @@ i {
   width: 4rem;
 }
 
+.navbar {
+  box-shadow: 1px 1px 15px #5a5a5a;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -330,8 +334,7 @@ i {
 section.resume-section {
   display: flex;
   flex-direction: column;
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
+  padding: 5rem 10rem !important;
   max-width: 75rem;
 }
 
