@@ -14,11 +14,19 @@
     <title>Pep del Baño | Portfolio</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> -->
 
     <!-- fontawesome icons: -->
-    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+      rel="stylesheet"
+    />
 
     <!-- Custom fonts for this template -->
     <link
@@ -50,7 +58,7 @@
           <img
             class="img-fluid img-profile rounded-circle mx-auto mb-2"
             src="img/profile.jpg"
-            alt=""
+            alt="profile picture"
           />
         </span>
       </a>
@@ -68,23 +76,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll active" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            <a class="nav-link js-scroll" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education"
-              >Education</a
-            >
+            <a class="nav-link js-scroll" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            <a class="nav-link js-scroll" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests"
-              >Interests</a
-            >
+            <a class="nav-link js-scroll" href="#interests">Interests</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
@@ -99,9 +103,9 @@
         id="about"
       >
         <div class="w-100">
-          <h1 class="mb-0">
+          <h1 class="mb-0 primary">
             Pep
-            <span class="text-primary">del Baño</span>
+            <span class="secondary">del Baño</span>
           </h1>
           <div class="subheading mb-5">
             Ripollet, 08291, Barcelona, Spain
@@ -115,7 +119,7 @@
             I go.
           </p>
           <div class="social-icons">
-              <p class="lead mb-5">Find me in Social Media: </p>
+            <p class="lead mb-5">Find me in Social Media:</p>
             <a target="_blank" href="https://www.linkedin.com/in/josepdelbano/">
               <i class="fab fa-linkedin-in"></i>
             </a>
@@ -135,12 +139,14 @@
 
           <div>
             <p class="lead my-5">
-              Download my CV now:
               <a
                 href="docs/cv_2019_english.pdf"
+                target="_blank"
                 download="PepDevCV"
-                ><i class="fas fa-file-download mx-2"></i></i
-              ></a>
+              >
+                <i class="fas fa-file-pdf"></i>
+                Download CV
+              </a>
             </p>
           </div>
         </div>
@@ -165,8 +171,8 @@
               />
             </div>
             <div class="card-body">
-              <h3 class="card-title">Planbe</h3>
-              <h5 class="card-subtitle">E-commerce with MERN Stack</h5>
+              <h3 class="secondary">Planbe</h3>
+              <h5 class="third">E-commerce with MERN Stack</h5>
               <p class="separation-title-card"></p>
               <ul class="pl-0 mt-4 list-unstyled">
                 <div class="row text-left">
@@ -203,7 +209,7 @@
                   href="http://planbe-freshbites.surge.sh/#/"
                   target="_blank"
                   class="mr-3"
-                  ><i class="fas fa-laptop-code"></i> Try demo</a
+                  ><i class="fas fa-laptop"></i> Try demo</a
                 >
                 <a
                   href="https://github.com/pepdbm7/Bootcamp-Final-Project"
@@ -225,8 +231,8 @@
               />
             </div>
             <div class="card-body">
-              <h3 class="card-title">Meetup</h3>
-              <h5 class="card-subtitle">Social Network with MEVN Stack</h5>
+              <h3 class="secondary">Meetup</h3>
+              <h5 class="third">Social Network with MEVN Stack</h5>
               <p class="separation-title-card"></p>
               <ul class="pl-0 mt-4 list-unstyled">
                 <div class="row text-left">
@@ -256,7 +262,7 @@
                   href="https://meetup-mevn-pep.herokuapp.com"
                   target="_blank"
                   class="mr-3"
-                  ><i class="fas fa-laptop-code"></i> Try demo</a
+                  ><i class="fas fa-laptop"></i> Try demo</a
                 >
                 <a
                   href="https://github.com/pepdbm7/Meetup-with-Vue"
@@ -273,25 +279,28 @@
             <div class="project-img-container">
               <img
                 class="card-img-top photo"
-                src="./img/gnomefinder_screenshot.png"
+                src="./img/gnomefinder_screenshot.PNG"
                 alt="planbe screenshot"
               />
             </div>
             <div class="card-body">
-              <h3 class="card-title">Gnome finder</h3>
-              <h5 class="card-subtitle">React and Redux app</h5>
+              <h3 class="secondary">Gnome finder</h3>
+              <h5 class="third">React and Redux app</h5>
               <p class="separation-title-card"></p>
               <ul class="pl-0 mt-4 list-unstyled">
                 <div class="row text-left">
                   <div class="col-lg-6 col-12">
                     <li class="mt-1">
-                      <i class="fa fa-code"></i> Restringed access with a username
+                      <i class="fa fa-code"></i> Restringed access with a
+                      username
                     </li>
                     <li class="my-1">
-                      <i class="fa fa-code"></i> Keeps active using Session storage
+                      <i class="fa fa-code"></i> Login simulation by using
+                      Session storage
                     </li>
                     <li>
-                      <i class="fa fa-code"></i> Shows the first 20 gnomes for long lists
+                      <i class="fa fa-code"></i> Shows the first 20 gnomes for
+                      long lists
                     </li>
                   </div>
                   <div class="col-lg-6 col-12">
@@ -299,7 +308,8 @@
                       <i class="fa fa-code"></i> Fetching data with axios
                     </li>
                     <li class="my-1">
-                      <i class="fa fa-code"></i> Apply up to 4 filters simultaneously
+                      <i class="fa fa-code"></i> Apply up to 4 filters
+                      simultaneously
                     </li>
                     <li>
                       <i class="fa fa-code"></i> Responsive and smooth style
@@ -312,7 +322,7 @@
                   href="https://thirsty-neumann-4260ef.netlify.com/"
                   target="_blank"
                   class="mr-3"
-                  ><i class="fas fa-laptop-code"></i> Try demo</a
+                  ><i class="fas fa-laptop"></i> Try demo</a
                 >
                 <a
                   href="https://github.com/pepdbm7/React-Redux-Finder"
@@ -338,8 +348,8 @@
             class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div class="resume-content">
-              <h3 class="mb-0">Skylab Coders Academy</h3>
-              <div class="subheading mb-3">
+              <h3 class="mb-0 title">Skylab Coders Academy</h3>
+              <div class="subheading mb-3 third">
                 Bootcamp of Javascript Full Stack
               </div>
               <div>
@@ -348,7 +358,7 @@
               </div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">September 2018 - December 2018</span>
+              <span class="primary">September 2018 - December 2018</span>
             </div>
           </div>
         </div>
@@ -500,9 +510,21 @@
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
     <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
 
