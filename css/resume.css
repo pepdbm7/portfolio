@@ -39,6 +39,8 @@ h1 {
 
 h2 {
   font-size: 3.5rem;
+  text-align: center;
+  transition: 0.5s;
 }
 
 h3 {
@@ -98,8 +100,23 @@ h2 {
   color: steelblue !important;
 }
 
-h2 {
-  text-align: center;
+.name-title {
+  color: steelblue;
+  background: linear-gradient(steelblue 35%, transparent 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lastname-title {
+  color: sienna;
+  background: linear-gradient(sienna 35%, transparent 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lastname-title:before,
+.name-title:before {
+  content: "";
 }
 
 .parallax-projects {
@@ -115,7 +132,7 @@ h2 {
 }
 
 .parallax-interests {
-  background: url(../img/abstract3.jpg);
+  background: url(../img/abstract.jpg);
 }
 
 .parallax {
@@ -128,6 +145,11 @@ h2 {
 
 .parallax-container {
   height: 200px;
+}
+
+.parallax:hover {
+  letter-spacing: 5px;
+  cursor: default;
 }
 
 .project-img-container {
@@ -316,6 +338,9 @@ section.resume-section {
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 80vh;
+  }
+  .about {
+    min-height: 100vh !important;
   }
 }
 
