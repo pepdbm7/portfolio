@@ -67,13 +67,19 @@ p.lead {
   background-color: skyblue !important;
 }
 
-.nav-link {
+.nav-link,
+.signature {
   color: whitesmoke !important;
 }
 
 .nav-link:hover {
-  color: rgb(245, 245, 245) !important;
+  color: whitesmoke;
+  text-shadow: 1px 1px 4px whitesmoke;
 }
+
+/* .nav-link:active {
+  text-shadow: 1px 1px 8px white;
+} */
 
 .primary,
 a {
@@ -92,13 +98,36 @@ h2 {
   color: steelblue !important;
 }
 
-.nav-link:hover {
-  color: whitesmoke;
-  text-shadow: 1px 1px 4px whitesmoke;
+h2 {
+  text-align: center;
 }
 
-.nav-link:active {
-  text-shadow: 1px 1px 8px white;
+.parallax-projects {
+  background: url(../img/abstract.jpg);
+}
+
+.parallax-education {
+  background: url(../img/abstract1.jpg);
+}
+
+.parallax-skills {
+  background: url(../img/abstract2.jpg);
+}
+
+.parallax-interests {
+  background: url(../img/abstract3.jpg);
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  min-height: 200px;
+  width: 100%;
+}
+
+.parallax-container {
+  height: 200px;
 }
 
 .project-img-container {
@@ -277,6 +306,8 @@ i {
 }
 
 section.resume-section {
+  display: flex;
+  flex-direction: column;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
@@ -284,7 +315,7 @@ section.resume-section {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 80vh;
   }
 }
 
