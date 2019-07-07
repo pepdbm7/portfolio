@@ -9,7 +9,8 @@ body {
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
   padding-top: 54px;
-  color: #868e96;
+  color: steelblue;
+  cursor: default;
 }
 
 @media (min-width: 992px) {
@@ -54,6 +55,19 @@ ul {
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
+}
+
+p {
+  opacity: 0;
+  -webkit-transition: opacity 3s ease-in;
+  -moz-transition: opacity 3s ease-in;
+  -o-transition: opacity 3s ease-in;
+  -ms-transition: opacity 3s ease-in;
+  transition: opacity 3s ease-in;
+}
+
+p.visibleText {
+  opacity: 1;
 }
 
 .subheading {
@@ -264,7 +278,12 @@ i {
 }
 
 .navbar {
-  box-shadow: 1px 1px 15px #5a5a5a;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.navbar:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
