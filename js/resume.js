@@ -1,6 +1,11 @@
 (function($) {
   "use strict"; // Start of use strict
 
+  // const scrollTo = name => {
+  //   const section = document.querySelector(`#${name}`);
+  //   section.scrollIntoView({ behavior: "smooth", block: "start" });
+  // };
+
   //make texts visibles:
   $("p").addClass("visibleText");
 
