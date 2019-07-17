@@ -80,7 +80,7 @@ p.visibleText {
 }
 
 .bg-primary {
-  background-color: skyblue !important;
+  background-color: steelblue !important;
 }
 
 .nav-link,
@@ -104,6 +104,11 @@ a {
 
 .secondary {
   color: sienna;
+}
+
+.stack {
+  color: steelblue;
+  text-align: center;
 }
 
 .third,
@@ -293,7 +298,7 @@ i {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: skyblue;
+  outline-color: steelblue;
 }
 
 @media (min-width: 992px) {
